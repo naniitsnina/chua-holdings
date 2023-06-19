@@ -1,0 +1,128 @@
+body {
+  font-family: "Readex Pro", sans-serif; }
+
+h2, h3 {
+  font-family: "Arimo", sans-serif; }
+
+h1 {
+  font-family: "", sans-serif;
+  font-weight: 900; }
+
+a, a:hover {
+  color: #F1C644;
+  text-decoration: none; }
+
+li {
+  list-style: none; }
+
+.btn-link {
+  color: #F1C644; }
+
+.btn-link:hover {
+  color: rgba(241, 198, 68, 0.5);
+  text-decoration: none; }
+
+header h2 {
+  color: #053769; }
+
+header h4 {
+  color: #8C97A1; }
+
+.img-fluid {
+  max-width: 120%; }
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: rgba(241, 198, 68, 0.5); }
+
+.navbar-dark .navbar-nav .active > .nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show > .nav-link {
+  color: #F1C644;
+  border-bottom: 5px solid #F1C644; }
+
+.jumbotron {
+  padding: 30px;
+  background-color: #053769;
+  color: white;
+  margin: 0; }
+
+.row-content {
+  padding: 50px 0;
+  border-bottom: 1px ridge rgba(88, 87, 87, 0.5);
+  min-height: 200px; }
+
+.navbar {
+  background-color: #053769; }
+
+.tab-content {
+  border: 1px solid #DDD;
+  border-top: none;
+  padding: 10px; }
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); }
+
+div.carousel-item.active {
+  display: flex;
+  justify-content: center; }
+
+#carouselButton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  z-index: 100; }
+
+#reserveModal .modal-header {
+  background-color: #F1C644;
+  color: white; }
+
+#reserveButton {
+  background-color: #F1C644; }
+
+#loginModal .modal-header {
+  background-color: #333333;
+  color: white; }
+
+.container {
+  margin-left: auto;
+  margin-right: auto; }
+
+.landing {
+  background-image: url("../img/dock-shipment-chllc.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.landing-text {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 0.5rem;
+  padding: 3rem; }
+
+.import, .export {
+  padding: 3rem 0 0 0;
+  margin: auto; }
+
+.carousel-control-prev-icon, .carouse-control.next-icon {
+  color: #053769; }
+
+.contact-form, .top-page {
+  background-color: #8C97A1; }
+
+.site-footer {
+  background-color: #053769;
+  color: white;
+  padding: 5rem 0 2rem 0; }
+
+div.hours-info {
+  padding: 2.5rem 0;
+  line-height: rem; }
+
+div.info {
+  padding: 1rem 0; }
+
+.site-footer ul {
+  padding-inline-start: 0; }
+
+.copyright {
+  line-height: 0.5rem;
+  padding: 3rem 0 0 0; }
