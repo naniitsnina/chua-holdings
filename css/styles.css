@@ -16,7 +16,8 @@ li {
   list-style: none; }
 
 .btn-link {
-  color: #F1C644; }
+  color: #F1C644; 
+}
 
 .btn-link:hover {
   color: rgba(241, 198, 68, 0.5);
