@@ -28,8 +28,13 @@ header h2 {
 header h4 {
   color: #8C97A1; }
 
-.img-fluid {
-  max-width: 120%; }
+.img-thumbnail {
+  max-width: 25%;
+  border: none; }
+
+@media only screen and (max-width: 768px) {
+  .img-thumbnail {
+    max-width: 75%; } }
 
 .navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
   color: rgba(241, 198, 68, 0.5); }
@@ -59,6 +64,10 @@ header h4 {
 
 .carousel-caption {
   background-color: rgba(0, 0, 0, 0.5); }
+
+@media only screen and (max-width: 768px) {
+  .carousel-caption h3, .carousel-caption p {
+    font-size: large; } }
 
 div.carousel-item.active {
   display: flex;
@@ -99,11 +108,8 @@ div.carousel-item.active {
   padding: 3rem; }
 
 .import, .export {
-  padding: 3rem 0 0 0;
+  padding: 3rem 2rem;
   margin: auto; }
-
-.carousel-control-prev-icon, .carouse-control.next-icon {
-  color: #053769; }
 
 .contact-form, .top-page {
   background-color: #8C97A1; }
