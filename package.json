@@ -14,18 +14,23 @@
     "usemin": "usemin contactus.html -d dist --htmlmin -o dist/contactus.html && usemin aboutus.html -d dist --htmlmin -o dist/aboutus.html && usemin index.html -d dist --htmlmin -o dist/index.html",
     "imagemin": "imagemin img/* -o dist/img",
     "clean": "rimraf dist",
-    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin"
+    "build": "npm run clean && npm run imagemin && npm run copyfonts && npm run usemin && cp -R css dist/css && cp -R js dist/js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "copy-webpack-plugin": "^11.0.0",
     "copyfiles": "^2.2.0",
+    "gulp": "^4.0.2",
+    "gulp-copy": "^4.0.1",
     "imagemin-cli": "^5.1.0",
     "lite-server": "^2.6.1",
     "onchange": "^7.0.0",
     "parallelshell": "3.0.1",
     "rimraf": "^3.0.2",
-    "usemin-cli": "^0.6.0"
+    "usemin-cli": "^0.6.0",
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.4"
   },
   "dependencies": {
     "bootstrap": "^4.5.2",
